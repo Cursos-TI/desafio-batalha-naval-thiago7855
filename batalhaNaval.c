@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#include <stdio.h>
-
 int main() {
     // Criando o tabuleiro
     int tabuleiro[10][10];
