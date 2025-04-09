@@ -12,27 +12,26 @@ int main() {
     }
 
     // Posicionando os navios no tabuleiro
-    // Navio vertical (valor 3 representa o navio)
+    // Navio vertical
     tabuleiro[3][4] = 3;
     tabuleiro[2][4] = 3;
     tabuleiro[1][4] = 3;
 
-    // Navio horizontal (valor 3 representa o navio)
+    // Navio horizontal
     tabuleiro[7][5] = 3;
     tabuleiro[7][6] = 3;
     tabuleiro[7][7] = 3;
 
     // Imprimindo o tabuleiro com os navios posicionados
-    printf("    a b c d e f g h i j\n"); // Cabeçalho das colunas
-    printf("  +---------------------+\n"); // Borda superior
+    printf("  a b c d e f g h i j\n");
     for (int j = 0; j < 10; j++) {
-        printf("%d | ", j); // Número da linha com borda lateral
+        printf("%d ", j); // Imprime o número da linha
         for (int i = 0; i < 10; i++) {
             printf("%d ", tabuleiro[j][i]);
         }
-        printf("|\n"); // Borda lateral direita
+        printf("\n");
     }
-    printf("  +---------------------+\n"); // Borda inferior
 
-    return 0;
-}
+        return 0;
+    }
+    
