@@ -12,12 +12,12 @@ int main() {
     }
 
     // Posicionando os navios no tabuleiro
-    // Navio vertical
+    // Navio vertical (valor 3 representa o navio)
     tabuleiro[3][4] = 3;
     tabuleiro[2][4] = 3;
     tabuleiro[1][4] = 3;
 
-    // Navio horizontal
+    // Navio horizontal (valor 3 representa o navio)
     tabuleiro[7][5] = 3;
     tabuleiro[7][6] = 3;
     tabuleiro[7][7] = 3;
