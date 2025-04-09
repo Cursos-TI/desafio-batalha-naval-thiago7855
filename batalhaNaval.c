@@ -23,15 +23,16 @@ int main() {
     tabuleiro[7][7] = 3;
 
     // Imprimindo o tabuleiro com os navios posicionados
-    printf("  a b c d e f g h i j\n");
+    printf("    a b c d e f g h i j\n"); // Cabeçalho das colunas
+    printf("  +---------------------+\n"); // Borda superior
     for (int j = 0; j < 10; j++) {
-        printf("%d ", j); // Imprime o número da linha
+        printf("%d | ", j); // Número da linha com borda lateral
         for (int i = 0; i < 10; i++) {
             printf("%d ", tabuleiro[j][i]);
         }
-        printf("\n");
+        printf("|\n"); // Borda lateral direita
     }
+    printf("  +---------------------+\n"); // Borda inferior
 
-        return 0;
-    }
-    
+    return 0;
+}
