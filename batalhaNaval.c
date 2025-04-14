@@ -2,6 +2,7 @@
 
 int main() {
     // Criando o tabuleiro
+    // 0 representa uma célula vazia, 3 representa partes de um navio
     int tabuleiro[10][10];
 
     // Inicializando o tabuleiro com zeros
